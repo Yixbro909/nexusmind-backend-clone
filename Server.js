@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-app.post('/chatbot', async (req, res) => {
+app.post('/lilybot', async (req, res) => {
     const { text } = req.body;
 
     try {
